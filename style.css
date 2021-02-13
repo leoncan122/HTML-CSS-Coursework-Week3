@@ -1,1 +1,21 @@
-/*  Add your styling here */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 5%;
+
+}
+.main-nav img {
+    width: 100px;
+}
+
+nav .proper-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0 0 10%;
+}
+
+nav .proper-nav i{
+    font-size: 3em;
+    align-self: flex-end;
+}
