@@ -4,14 +4,13 @@ body {
     width: 96%;
     margin: 5% 2%;
     font-size: 1.5em;
-    }
-
-    .all-container {
-        border-radius: 4px;
-        background-color: rgba(95, 88, 88, 0.658);
-        padding: 1px 1px
+}
+.all-container {
+    border-radius: 4px;
+    background-color: rgba(95, 88, 88, 0.658);
+    padding: 1px 1px
        
-    }
+}
 
 .main-nav {
     color: black;
@@ -23,8 +22,14 @@ body {
     background-size: cover;
 }
 
+.main-nav .background-logo  {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
 
-.main-nav img {
+
+.main-nav img  {
     margin: 0 5%;
     width: 100px;
     padding-left: 10%;
@@ -56,18 +61,55 @@ header {
 header h1 {
     font-family: 'Dancing Script', cursive;
 }
-
+/*contenido de cakes a la venta */
 main .content {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .content .principal-image {
+    width: 100%;
+}
+
+
+main .content .columns {
+    display: flex;
+    flex-direction: row;
+    margin: 5% auto;
+}
+
+.columns .first-column-img, .second-column-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 3%;
+    
 }
 
 main .content h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.4em;
     border-top: dashed 2px white;
     border-bottom: dashed 2px white;
-    display: inline-block;
 }
 
 main .content p {
-    display: inline-block;
     border-bottom: solid yellow 1px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    background-color:  rgba(75, 209, 209, 0.603);
+    color: black;
+}
+
+footer .social-images {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
 }
