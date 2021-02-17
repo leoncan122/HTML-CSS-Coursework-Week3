@@ -31,7 +31,7 @@ body {
 
 .main-nav img  {
     margin: 0 5%;
-    width: 100px;
+    width: 140px;
     padding-left: 10%;
     padding-top: 10%;
     
@@ -98,6 +98,7 @@ main .content h2 {
 main .content p {
     border-bottom: solid yellow 1px;
 }
+/*  footer de contacto */
 
 footer {
     display: flex;
@@ -112,4 +113,16 @@ footer .social-images {
     display: flex;
     flex-direction: row;
     margin-bottom: 3%;
+}
+
+@media (min-width: 540px) {
+    .main-nav img {
+        width: 170px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-weight: bold;
+    }
 }
